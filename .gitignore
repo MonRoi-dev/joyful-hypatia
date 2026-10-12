@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+dist/
+
+# Rust / Tauri build artifacts
+src-tauri/target/
+
+# Environment and secrets
+.env
+.env.*
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa
+id_ed25519
+
+# IDE and OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
